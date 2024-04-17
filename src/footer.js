@@ -1,6 +1,7 @@
 const Footer = () => {
     return <footer>
-        <p>footer</p>
+        <p></p>
+        <p>Simulación hecha por Alexander Eyner Cordova Plasencia</p>
     </footer>;
 }
 
