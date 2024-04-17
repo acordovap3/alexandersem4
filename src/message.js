@@ -1,5 +1,5 @@
 const Message = ({ message }) => {
-    return <h1>Message: {message}</h1>;
+    return <h1>Entrar a UPAO: {message}</h1>;
 }
 
 export default Message;

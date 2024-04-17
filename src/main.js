@@ -10,7 +10,7 @@ const Main = () => {
                 <input type="password" class="form-control" id="inputPassword" placeholder="Contrasena"></input>
               </div>
               <div class="form-group">
-                <label class="form-check-label"><input type="checkbox"> Recuerdamelo</label>
+                <label class="form-check-label"><input type="checkbox"></input> Recuerdamelo</label>
               </div>
               <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
             </form>
