@@ -1,29 +1,49 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
-function UncontrolledExample() {
-  return (
-    <Carousel>
-      <Carousel.Item>
-      <img scr="https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg"> class="d-block w-100" alt="..."</img>
-        <Carousel.Caption>
 
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img scr="https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg"> class="d-block w-100" alt="..."</img>
-        <Carousel.Caption>
+const feather = require('feather-icons');
 
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img scr="https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg"> class="d-block w-100" alt="..."</img>
-        <Carousel.Caption>
+setTimeout(() => {
+    feather.replace();
+}, 1000);
 
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+const gatos = [
+    {
+        name: "Preparados para los retos de la vida",
+        description: "Descripcion Gato 1",
+        picture: 'https://static2.upao.edu.pe/5/1667857684PRINCIPAL.jpg'
+    },
+    {
+        name: "Diviendonos con nuestra mascota",
+        description: "Descripcion Gato 2",
+        picture: 'https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg'
+    },
+    {
+        name: "Ensenanza de calidad",
+        description: "Descripcion Gato 3",
+        picture: 'https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg'
+    },
+];
+
+const Main = () => {
+    return <main>
+        <Carousel>
+            {
+                gatos.map(it => {
+                    return (<Carousel.Item onClick={(e) =>{
+                      e.preventDefault(); handleClick(it.slug)
+                    }}>
+                      <img className='w-100 dark-image' src={it.picture}></img>
+                        <Carousel.Caption>
+                            <h3>{it.name}</h3>
+                            <p>{it.description}</p>
+                            <button clasName="btn btn-primary" >Ver detalles</button>
+                        </Carousel.Caption>
+                    </Carousel.Item>);
+                })
+            }
+        </Carousel>
+    </main>;
 }
 
-export default UncontrolledExample;
+export default Main;
