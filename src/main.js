@@ -10,18 +10,18 @@ setTimeout(() => {
 const gatos = [
     {
         name: "Preparados para los retos de la vida",
-        description: "Descripcion Gato 1",
+        description: "Con cursos extracurriculares para los mas destacados",
         picture: 'https://static2.upao.edu.pe/5/1667857684PRINCIPAL.jpg'
     },
     {
         name: "Diviendonos con nuestra mascota",
-        description: "Descripcion Gato 2",
+        description: "La cordialidad ante todo",
         picture: 'https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg'
     },
     {
-        name: "Ensenanza de calidad",
-        description: "Descripcion Gato 3",
-        picture: 'https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg'
+        name: "Innovando cada dia",
+        description: "Visita nuestras instalaciones",
+        picture: 'https://static2.upao.edu.pe/5/1681338770PRINCIPAL%20(2).jpg'
     },
 ];
 
