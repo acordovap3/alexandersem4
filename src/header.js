@@ -35,6 +35,7 @@ const Header = () => {
             </form>
         </div>
     </nav>
+
     </header>
 }
 
