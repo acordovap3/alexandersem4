@@ -26,6 +26,12 @@ const gatos = [
 ];
 
 const Main = () => {
+    const navigate = useNavigate();
+
+    const handleClick = (slug) => {
+        navigate("/detalle/" + slug);
+    }
+    
     return <main>
         <Carousel>
             {

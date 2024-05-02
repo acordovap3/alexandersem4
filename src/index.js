@@ -34,7 +34,7 @@ root.render(
 const router = createBrowserRouter([
     {
         path: "/",
-        element(
+        element: (
             <StrictMode>
                 <Header></Header>
                 <div className="container">
@@ -51,4 +51,8 @@ const router = createBrowserRouter([
         </StrictMode>
         ),
     },
+    {
+        path: "detalle",
+        element: <Single/>
+    }
 ]);
