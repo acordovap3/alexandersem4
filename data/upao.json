@@ -2,25 +2,19 @@
     {
         "name": "Upao 1",
         "slug": "upao-1",
-        "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "description": "Descripcion Upao 1",
+        "picture": "https://static2.upao.edu.pe/5/1667857684PRINCIPAL.jpg"
     },
     {
         "name": "Upao 2",
         "slug": "upao-2",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
+        "description": "Descripcion Upao 2",
+        "picture": "https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg"
     },
     {
         "name": "Upao 3",
         "slug": "upao-3",
-        "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Upao 4",
-        "slug": "upao-4",
-        "description": "Rufus",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "description": "Descripcion Upao 3",
+        "picture": "https://static2.upao.edu.pe/5/1681338770PRINCIPAL%20(2).jpg"
     }
 ]

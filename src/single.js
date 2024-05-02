@@ -3,13 +3,13 @@ import Upao from './data/upao.json'
 const Single = () => {
 
     const currentRoute = window.location.pathname;
-    const upao = Upao.find(it => currentRoute.includes(it.slug))
+    const Upao = Upao.find(it => currentRoute.includes(it.slug))
 
     return (<>
-        <h1>{upao.name}</h1>
+        <h1>{Upao.name}</h1>
         <hr></hr>
-        <img src={upao.picture}></img>
-        <p>{upao.description}</p>
+        <img src={Upao.picture}></img>
+        <p>{Upao.description}</p>
     </>);
 }
 
