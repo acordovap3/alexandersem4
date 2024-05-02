@@ -6,6 +6,7 @@ import Header from "./header";
 import Main from "./main";
 import Aside from "./aside";
 import Footer from "./footer";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const feather = require('feather-icons');
 
 setTimeout(() => {
@@ -29,3 +30,25 @@ root.render(
         <Footer></Footer>
     </StrictMode>
 );
+
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element(
+            <StrictMode>
+                <Header></Header>
+                <div className="container">
+                    <div className="row py-5">
+                        <div className="col-md-8">
+                            <Main></Main>
+                        </div>
+                        <div className="col-md-4">
+                            <Aside></Aside>
+                        </div>
+                    </div>
+                </div>
+            <Footer></Footer>
+        </StrictMode>
+        ),
+    },
+]);
