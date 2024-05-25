@@ -1,20 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
-import Button from 'react-bootstrap/Button';
-import React, { StrictMode } from "react";
+import './style.css'; // Asegúrate de que este archivo se esté importando
 import { createRoot } from "react-dom/client";
-import Header from "./header";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Basic from "./layout/basic";
 import Main from "./main";
 import Aside from "./aside";
-import Footer from "./footer";
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
-const feather = require('feather-icons');
-import Single from './single';
 
-const rooter = createRoot(document.getElementById("root"));
+const feather = require('feather-icons');
+
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+
+const router = createRoot(document.getElementById("root"));
 root.render(
     <StrictMode>
         <Header></Header>
