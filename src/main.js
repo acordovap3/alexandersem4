@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-
 const feather = require('feather-icons');
 
 setTimeout(() => {
@@ -10,17 +9,17 @@ setTimeout(() => {
 const gatos = [
     {
         name: "Preparados para los retos de la vida",
-        description: "Descripcion Gato 1",
+        description: "Competencia",
         picture: 'https://static2.upao.edu.pe/5/1667857684PRINCIPAL.jpg'
     },
     {
         name: "Diviendonos con nuestra mascota",
-        description: "Descripcion Gato 2",
+        description: "Atención",
         picture: 'https://static2.upao.edu.pe/5/1693524345PRINCIPAL.jpg'
     },
     {
         name: "Apoyamos la creatividad",
-        description: "Descripcion Gato 3",
+        description: "Imaginacion",
         picture: 'https://static2.upao.edu.pe/5/1686347869PRINCIPAL.jpg'
     },
 ];
